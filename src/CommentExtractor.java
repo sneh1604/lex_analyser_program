@@ -9,7 +9,6 @@ public class CommentExtractor {
         try {
             File myObj = new File("comment.c");
             Scanner myReader = new Scanner(myObj);
-
             String singleLineCommentRegex = "//.*";
             String multiLineCommentRegex = "/\\*.*?\\*/";
 
